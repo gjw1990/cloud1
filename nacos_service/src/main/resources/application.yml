@@ -1,0 +1,11 @@
+server:
+  port: 8087
+spring:
+  cloud:
+    nacos:
+      server-addr: 127.0.0.1:8848
+      discovery:
+        namespace: 15eec40f-caf2-496c-861c-f502cd848ecb
+  application:
+    name: nacos-demo
+
